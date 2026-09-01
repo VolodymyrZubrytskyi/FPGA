@@ -1,0 +1,32 @@
+# Vivado: тимчасові й регенеровані файли
+*.jou
+*.log
+*.str
+*.debug
+*.zip
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+*.tmp/
+vivado_*.backup.jou
+vivado_*.backup.log
+webtalk*.jou
+webtalk*.log
+usage_statistics_webtalk.*
+
+# Quartus
+db/
+incremental_db/
+output_files/
+*.qws
+*.rpt
+*.summary
+
+# ОС
+.DS_Store
+Thumbs.db
+desktop.ini
