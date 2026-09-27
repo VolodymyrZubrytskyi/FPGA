@@ -30,3 +30,20 @@ output_files/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# ---- Vitis (Unified IDE) ----
+build-vitis/
+build-vivado/
+**/Debug/
+**/Release/
+**/platform/zynq_fsbl/
+**/_ide/bitstream/
+**/_ide/logs/
+**/_ide/.wsdata/
+*.o
+*.d
+*.elf.bak
+*.bin
+*.pdi
+*.lock
+*.vitisWorkspace.json
