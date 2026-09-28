@@ -47,3 +47,9 @@ build-vivado/
 *.pdi
 *.lock
 *.vitisWorkspace.json
+
+# ---- Vitis: build artifacts ----
+*.obj
+*.a
+**/platform/hw/sdt/*.bit
+**/workspace_journal_*.py
