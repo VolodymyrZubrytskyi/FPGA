@@ -1,0 +1,18 @@
+Behavioral Simulation: tb_frame_rx (standalone module test, FRAME_WORDS = 8)
+
+--- test 1: data before start must be ignored ---
+PASS: nothing accepted before start
+--- test 2: one full frame ---
+PASS: word 0 = 03020100
+PASS: word 1 = 07060504
+PASS: word 2 = 0b0a0908
+PASS: word 3 = 0f0e0d0c
+PASS: word 4 = 13121110
+PASS: word 5 = 17161514
+PASS: word 6 = 1b1a1918
+PASS: word 7 = 1f1e1d1c
+PASS: tlast on the last word
+--- test 3: extra data after the frame is ignored ---
+PASS: frame closed after 8 words
+=== ALL TESTS PASSED ===
+$finish called at time : 3325 ns

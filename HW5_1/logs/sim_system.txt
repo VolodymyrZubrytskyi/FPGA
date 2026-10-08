@@ -1,0 +1,12 @@
+Behavioral Simulation: tb_design_1_wrapper (full system with app_component.elf)
+Configuration: FRAME_WORDS = 64 (256 bytes) in both frame_rx_0 and main.c
+
+[1000 ns]     reset released
+[301000 ns]   pressing button
+[353000 ns]   sending 256 bytes
+[359400 ns]   frame sent
+=== PASS: 64 words written by DMA ===
+$finish called at time : 509400 ns
+
+Verified in testbench by reading design_1_i/axi4_full_ram_0/inst/mem[]:
+all 64 words match the expected little-endian packing of the input byte stream.

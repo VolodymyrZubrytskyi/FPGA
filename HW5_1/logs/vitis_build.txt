@@ -1,0 +1,23 @@
+Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s c:\Users\Volodymyr\Desktop\FPGA\HW5_1\vitis\app_component\src -b c:\Users\Volodymyr\Desktop\FPGA\HW5_1\vitis\app_component\build
+[INFO]: Starting Application build process
+[INFO]: Building Application
+[1/3] ==========Application Build Information ==========
+
+Compiler Flags:   -mlittle-endian -mxl-soft-mul -mcpu=v11.0 -DSDT  -MMD -MP -specs=C:/Users/Volodymy
+r/Desktop/FPGA/HW5_1/vitis/platform/export/platform/sw/standalone_microblaze_0/Xilinx.spec -IC:/User
+s/Volodymyr/Desktop/FPGA/HW5_1/vitis/platform/export/platform/sw/standalone_microblaze_0/include -Wa
+ll -Wextra      -O0  -g3     -U__clang__  
+
+Linker Flags:   -Wl,--no-relax  -Wl,--gc-sections      -Wl,-T -Wl,"C:/Users/Volodymyr/Desktop/FPGA/H
+W5_1/vitis/app_component/src/lscript.ld" -L"C:/Users/Volodymyr/Desktop/FPGA/HW5_1/vitis/app_componen
+t/src/" -L"C:/Users/Volodymyr/Desktop/FPGA/HW5_1/vitis/platform/export/platform/sw/standalone_microb
+laze_0/lib/" -L"/" -Wl,--start-group,-lxilstandalone,-lxiltimer,-lgloss,-lxil,-lgcc,-lc -Wl,--end-gr
+oup
+
+===========================================
+[2/3] Building C object CMakeFiles/app_component.elf.dir/main.c.obj
+[3/3] Linking C executable app_component.elf
+   text	   data	    bss	    dec	    hex	filename
+
+   8134	    652	   5374	  14160	   3750	app_component.elf
+

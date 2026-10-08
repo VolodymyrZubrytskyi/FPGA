@@ -53,3 +53,8 @@ build-vivado/
 *.a
 **/platform/hw/sdt/*.bit
 **/workspace_journal_*.py
+
+# ---- Vitis BSP: чужі архітектури та артефакти збірки ----
+**/standalone/src/arm/
+**/standalone/src/riscv/
+**/libsrc/build_configs/
